@@ -5,6 +5,7 @@
     // Additional Extensions Here
   ],
   "onCreateCommand" : "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+  "postCreateCommand": "python -m pip install -r requirements.txt"
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
